@@ -11,6 +11,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ed2d24;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-heading {
+  font-size: 30px;
+  color: antiquewhite;
 }
 
 #calculator {
@@ -45,8 +58,10 @@ button {
   font-size: 10px;
   margin: 10px;
   background-color: #ed2ded;
+  transition: 0.3s ease-in-out;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: #ffff00;
 }
